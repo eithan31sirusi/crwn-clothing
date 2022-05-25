@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProductCartContainer = styled.div`
   width: 100%;
@@ -31,7 +31,14 @@ export const ProductCartContainer = styled.div`
     button {
       opacity: 0.85;
       display: flex;
+      transform: translateY(-180px);
     }
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
   }
 `;
 
